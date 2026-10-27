@@ -1,18 +1,49 @@
-### Salve, sou Gabriel Reimberg de Paiva 👨‍💻
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=39D353&vCenter=true&width=600&lines=%24+whoami;%3E+gabriel+reimberg+de+paiva;%3E+data+engineering+%26+data+science+enthusiast)](https://github.com/ArticN)
 
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+### `$ cat about_me.py`
 
-![Artic's GitHub stats](https://github-readme-stats.vercel.app/api?username=ArticN&theme=dracula)
+```python
+from dataclasses import dataclass, field
 
 
-## Tecnologias
-<div style="display: inline_block"><br/>
-    <img align="center" alt="c#" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"  />
-    <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"  />
-    <img align="center" alt="c" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"  />
-    <img align="center" alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"  />
-</div>
+@dataclass
+class Developer:
+    name: str = "Gabriel Reimberg de Paiva"
+    role: str = "Data Engineering & Data Science Enthusiast"
+    main_language: str = "Python"
+
+    familiar_with: dict = field(default_factory=lambda: {
+        "data":      ["Pandas", "NumPy", "SQL"],
+        "pipelines": ["ETL / ELT", "Airflow"],
+        "ml":        ["scikit-learn"],
+        "tooling":   ["Git", "Docker", "Linux"],
+        "also_code": ["C", "C#"],
+    })
+
+    currently_learning: list = field(default_factory=lambda: [
+        "PySpark", "Data Modeling", "Cloud Data Platforms",
+    ])
+
+    def status(self) -> str:
+        return "building pipelines, breaking things, learning every day"
+
+
+if __name__ == "__main__":
+    print(Developer().status())
+```
+
+### `$ git log --stats`
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ArticN&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArticN&layout=compact&langs_count=6&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9" alt="Top languages" />
+</p>
+
+<img src="https://streak-stats.demolab.com?user=ArticN&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Contribution streak" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ArticN&bg_color=0d1117&color=c9d1d9&line=39d353&point=c9d1d9&area=true&area_color=39d353&hide_border=true&custom_title=contributions%20--last-year" alt="Activity graph" />
+
+### `$ ping gabriel`
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-0d1117?style=flat-square&logo=linkedin&logoColor=39d353)](https://www.linkedin.com/in/SEU_USUARIO)
+[![Email](https://img.shields.io/badge/email-0d1117?style=flat-square&logo=gmail&logoColor=39d353)](mailto:SEU_EMAIL@gmail.com)
