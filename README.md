@@ -41,9 +41,6 @@ if __name__ == "__main__":
 
 <img src="https://streak-stats.demolab.com?user=ArticN&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Contribution streak" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ArticN&bg_color=0d1117&color=c9d1d9&line=39d353&point=c9d1d9&area=true&area_color=39d353&hide_border=true&custom_title=contributions%20--last-year" alt="Activity graph" />
-
 ### `$ ping gabriel`
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-0d1117?style=flat-square&logo=linkedin&logoColor=39d353)](https://www.linkedin.com/in/SEU_USUARIO)
-[![Email](https://img.shields.io/badge/email-0d1117?style=flat-square&logo=gmail&logoColor=39d353)](mailto:SEU_EMAIL@gmail.com)
+`>` [`linkedin`](https://www.linkedin.com/in/gabriel-reimberg) &nbsp;·&nbsp; [`email`](mailto:gabriel.preimberg@gmail.com) &nbsp;·&nbsp; [`github`](https://github.com/ArticN)
